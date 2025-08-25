@@ -1,4 +1,4 @@
-# Coffee Shop Pulse ☕📊
+# Coffee Shop Hot Demands ☕📊
 
 Exploratory data analysis on coffee shop sales to answer: **when / what / how people buy**.  
 This project showcases my work regarding Python data analytics and visualization.
