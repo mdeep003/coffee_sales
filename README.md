@@ -5,26 +5,36 @@ This project showcases my work regarding Python data analytics and visualization
 
 ---
 
-## 📈 Completed Visuals
+
+## 📊 Completed Visuals
 
 ### 1. Revenue Heatmap — Hour × Weekday
-- Rows = weekdays (Mon–Sun)  
-- Columns = hours of the day (0–23)  
-- Cell color = total revenue  
-- **Insight:** Quickly highlights peak selling windows (e.g. morning rush vs evening lull).
+Rows = weekdays (Mon–Sun).  
+Columns = hours of the day (0–23).  
+Cell color = total revenue.  
+**Insight:** Quickly highlights peak selling windows (e.g. morning rush vs evening lull).
 
-### 2. Calendar Heatmap — Daily Revenue
-- Columns = weeks of the year (1–52)  
-- Rows = weekdays (Mon–Sun)  
-- Each cell = revenue on that date  
-- **Insight:** Shows seasonality, holidays, and recurring slow periods across the calendar.
-
-### 3. Sankey Diagram — Purchase Flow
-- Flow: **Time of Day → Coffee Name → Payment Method**  
-- Link thickness = number of transactions  
-- **Insight:** Reveals which drinks dominate in certain times of day, and whether customers prefer cash or card for those drinks.
+![Hour x Weekday Heatmap](output/01_heatmap_hour_weekday.png)
 
 ---
+
+### 2. Calendar Heatmap — Daily Revenue
+Columns = weeks of the year (1–52).  
+Rows = weekdays (Mon–Sun).  
+Each cell = revenue on that date.  
+**Insight:** Shows seasonality, holidays, and recurring slow periods across the calendar.
+
+![Calendar Heatmap](output/02_calendar_heatmap.png)
+
+---
+
+### 3. Sankey Diagram — Purchase Flow
+Flow: **Time of Day → Coffee Name → Payment Method**.  
+Link thickness = number of transactions.  
+**Insight:** Reveals which drinks dominate in certain times of day, and whether customers prefer cash or card.
+
+![Sankey Diagram](output/03_sankey_flow.png)
+
 
 ## 🛠️ Tools
 - **Python**
